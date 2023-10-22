@@ -23,7 +23,7 @@ function App() {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div  className="navbar-nav">
-              <a className="nav-link " href="#">// About</a>
+              <a className="nav-link " href="#" >// About</a>
               <a className="nav-link" href="#coursework-section" >// Coursework</a>
               <a className="nav-link"  href="#skills-section">// Skills</a>
               <a className="nav-link " href="#projects-section">// Projects</a>
