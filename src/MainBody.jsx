@@ -181,9 +181,9 @@ const MainBody = () => {
       <div className="achievements-container" style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'center', overflow: 'hidden' }}>
         {achievements.slice(0, showAll ? achievements.length : 3).map((achievement) => (
           <div key={achievement.id} className="achievement-card" style={{ textAlign:'center',backgroundColor: '#333', borderRadius:"10px",color: '#39FF14', fontFamily: 'Montserrat', maxWidth: '300px', margin: '20px', padding: '20px' }}>
-            <h5>{achievement.Title}</h5>
+            <h5 style={{color:'#FFA500'}}>{achievement.Title}</h5>
             <p style={{ textAlign: 'center', textJustify: 'inter-word' }}>{achievement.Description}</p>
-            <p style={{ fontSize: '10px' }}>{achievement.date}</p>
+            <p style={{ fontSize: '10px', color:'#00FFFF'}}>{achievement.date}</p>
           </div>
         ))}
       </div>
