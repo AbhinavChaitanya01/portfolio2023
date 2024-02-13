@@ -1,0 +1,329 @@
+.main-body{
+    background-color: black;
+    min-height: 100vh;
+}
+body{
+    min-height: 100vh;
+}
+.course-ide {
+    font-family: monospace;
+    background-color: #333;
+    padding:20px;
+    border-radius:10px;
+}
+.comment{
+    color:#5ff46b;
+    font-size: 1rem;
+}
+  
+.line {
+    display: flex;
+}
+  
+.line-number {
+    color: #fff;
+}
+  
+.code {
+    color: yellow;
+}
+.code.var {
+    color: #00FFFF; /* neon blue */
+  }
+  
+  .code.courses {
+    color: #FFA500; /* neon orange */
+  }
+  
+  .code.brackets {
+    color: #FFFFFF; /* white */
+  }
+.skills{
+    font-family: monospace;
+    background-color: #333;
+    padding:20px;
+    border-radius:10px;
+}
+.nav-link{
+    color:#F72798;
+    font-family: PlayfairDisplay;
+    font-weight: 500;
+    font-size: large;
+    margin-left: 20px;
+}
+.navbar-btn{
+    font-family: PlayfairDisplay;
+    font-weight: 500;
+    font-size: large;
+    margin-left: 20px;
+    background-color:#5ff46b;
+}
+.btn:hover{
+    color:#5ff46b;
+}
+.nav-link:hover{
+    color:aqua
+}
+#coursework-section{
+    overflow: hidden;
+    padding: 20px;
+}
+#skills-section{
+    padding: 30px;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+#contact-section {
+    padding: 30px;
+    overflow: hidden;
+    padding-bottom: 120px;
+}
+.contact-inner-container {
+    background-color: #333;
+    padding: 20px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+.contact-heading {
+    color: #39FF14;
+    font-family: Playfair Display;
+    text-align: center;
+    font-size: 2.5rem;
+    padding-bottom: 20px;
+}
+.contact-socials {
+    color: #F72798;
+    font-family: monospace;
+}
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.socials-container {
+    width: 30%;
+}
+.form-container {
+    width: 70%;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.form-input {
+    width:70%;
+    margin-bottom: 20px;
+    border: 2px solid #F72798;
+    background-color: #333;
+    border-radius: 5px;
+    color: #FFA500;
+    outline: none;
+}
+.form-input:focus {
+    border-color: #F72798; /* Change border color when focused */
+}
+.submit-button {
+    font-size: 1rem;
+    background-color: #000;
+    padding: 5px 10px;
+    color: #F72798;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+#projects-section{
+    overflow: hidden;
+    padding: 20px;
+    text-align: center;
+}
+#achievements-sections{
+    background-color: #000;
+    text-align: center;
+    padding-bottom: 100px;
+    overflow: hidden;
+}
+.outer-container{
+    margin: 10px;
+}
+.achievements-show-btn{
+    color: #000;
+    background-color: #39FF14;
+}
+.achievements-show-btn:hover{
+    color: #39FF14;
+    background-color: #000;
+}
+@media screen and (max-width: 992px) {
+    .contact-container {
+        flex-direction: column;
+    }
+    .socials-container,
+    .form-container {
+        width: 100%;
+    }
+    .form-container {
+        padding-left: 0px;
+    }
+    .contact-inner-container {
+        padding: 5px;
+    }
+}
+footer{
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color:#3586ff;
+    min-height:100px;
+    padding: 20px 40px;
+    flex-direction: column;
+}
+
+footer .social-icons{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+    flex-wrap: wrap;
+}
+
+footer .other-footer-info{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer .other-footer-info p{
+    padding: 10px;
+    margin :0
+}
+
+footer .social-icons li{
+    list-style: none;
+}
+
+footer .social-icons li a{
+    font-size: 2em;
+    color:black;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+footer .wave{
+    position: absolute;
+    top :-100px;
+    left : 0;
+    width:100%;
+    height: 100px;
+    background: url(../public/wave-image-1.png);
+    background-size: 1000px 100px;
+}
+
+footer .wave#wave1{
+    z-index:1000;
+    opacity:1;
+    bottom: 0;
+    animation : animateWave 4s linear infinite;
+}
+
+footer .wave#wave2{
+    z-index:999;
+    opacity:0.5;
+    bottom: 0;
+    animation : animateWave-02 4s linear infinite;
+}
+
+footer .wave#wave3{
+    z-index:1000;
+    opacity:0.2;
+    bottom: 15px;
+    animation : animateWave-02 3s linear infinite;
+}
+
+footer .wave#wave4{
+    z-index:999;
+    opacity:0.7;
+    bottom: 20px;
+    animation : animateWave-02 3s linear infinite;
+}
+
+@keyframes animateWave
+{
+    0%{
+        background-position-x: 1000px;
+    }
+    100%{
+        background-position-x :0px;
+    }
+}
+@keyframes animateWave-02{
+    0%{
+        background-position-x :0px;
+    }
+    100%{
+        background-position-x :1000px;
+    }
+}
+
+#intro {
+    padding: 50px;
+    max-width: 100vw;
+    min-height: 90vh;
+    text-align: center;
+    display: flex;
+    overflow: hidden;
+}
+.img-tag{
+    clip-path: circle(50% at 50% 50%);
+    width:80%;
+}
+@media screen and (max-width: 992px) {
+    .img-tag {
+        display: block;
+        width:50%;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+    }
+    #intro{
+        display: block;
+    }
+    .intro-text {
+        text-align: center;
+        padding-left: 0; /* Remove the left padding */
+    }
+}
+
+.intro-text{
+    padding-left:20px;
+    display: inline-block;
+}
+.intro-text .intro-p1{
+    color:#39FF14;
+    font-family: Rubik Doodle Shadow, system-ui;
+    font-size: 2em; 
+}
+
+.intro-text .intro-p2{
+    color:#39FF14;
+    /* font-family: Dancing Script, cursive; */
+    font-family: Roboto;
+    font-size: 3rem; 
+    font-weight: bolder;
+}
+.intro-text .intro-p3{
+    /* color:#FF00E4; */
+    color:#39FF14;
+    /* font-family: ; */
+    padding-bottom: 10px;
+    font-size: 1.5em; 
+}
+.intro-links a{
+    padding-left: 20px;
+}

@@ -25,8 +25,8 @@ function App() {
             <div  className="navbar-nav">
               <a className="nav-link " href="#" >// About</a>
               <a className="nav-link" href="#coursework-section" >// Coursework</a>
-              <a className="nav-link"  href="#skills-section">// Skills</a>
               <a className="nav-link " href="#projects-section">// Projects</a>
+              <a className="nav-link"  href="#skills-section">// Skills</a>
               <a className="nav-link" href="#achievements-sections" >// Achievements</a>
               <a className="nav-link"  href="#contact-section">// Contact</a>
             </div>
@@ -38,7 +38,7 @@ function App() {
       </nav>
       <section id="intro">
           <div className="my-image">
-            <img className="img-tag" src="profilePic.jpg"/>
+            <img className="img-tag" src="profile-pic-2.png"/>
           </div>
          <div className="intro-text">
             <p class="intro-p1"> Hi! I am</p>
