@@ -9,6 +9,14 @@ const projects = [
     },
     {
         id:2,
+        title:"DailyDiary",
+        deployedLink: "https://daily-diary-seven.vercel.app/",
+        sourceCode: "https://github.com/AbhinavChaitanya01/DailyDiary",
+        pic:'/DailyDiaryHomePage.png',
+        description: "A web app for diary entry / daily journals"
+    },
+    {
+        id:3,
         title:"Notely",
         deployedLink: "",
         sourceCode: "https://github.com/AbhinavChaitanya01/Notely",
@@ -16,7 +24,7 @@ const projects = [
         description: "A web app for note-taking"
     },
     {
-        id:3,
+        id:4,
         title:"News-up",
         deployedLink: "https://youtu.be/jr0KdBwx1eA",
         sourceCode: "",
@@ -24,7 +32,7 @@ const projects = [
         description: "A news website"
     },
     {
-        id:4,
+        id:5,
         title:"petSavior",
         deployedLink:"https://abhinavchaitanya01.github.io/PetSavior/",
         sourceCode:"https://github.com/AbhinavChaitanya01/PetSavior",
@@ -32,7 +40,7 @@ const projects = [
         description:'A web-app for animal care'
     },
     {
-        id:5,
+        id:6,
         title:"To-do List",
         deployedLink:"https://todolist-9dzr.onrender.com/",
         sourceCode:"https://github.com/AbhinavChaitanya01/todolist-v1",
@@ -40,7 +48,7 @@ const projects = [
         description:'A web-app to maintain to-do lists for daily tasks'
     },
     {
-        id:6,
+        id:7,
         title:"MyBlogs",
         deployedLink:"",
         sourceCode:"https://github.com/AbhinavChaitanya01/MyBlogs",
